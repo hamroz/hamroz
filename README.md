@@ -44,12 +44,12 @@ rule:         "agents do the typing; I own the design, the tests, the blast radi
 - **Blue team:** Wazuh + Elastic SOC lab, detection rules mapped to MITRE ATT&CK, triage write-ups.
 - **Red team:** internal Active Directory pentest (LLMNR poisoning, SMB relay, Kerberoasting, pass-the-hash) with a NIST SP 800-115 report. CTFs, OSCP/OSWP in progress.
 
-## 🧱 Engineering I'm proud of
+## 🧱 Engineering
 
 - **Fleet release pipeline:** self-hosted update channel that rejects anything failing a SHA-256 check, staged rollouts (staging → 3 canaries → batches of 10, halt on first failure) across 30+ sites.
 - **Ops gateway:** SSH/CLI gateway with a command allowlist, automatic DB snapshots before any write, and an audit log. My agents use it too.
 - **Health-gated staging CI/CD** across 7 services for a pricing platform: GitHub Actions, Docker Compose, preflight checks, deploy lock, graceful nginx reloads.
-- **Campus face-recognition checkpoint** (BSc thesis): Django + React, deployed at the University of Central Asia, best CS thesis of the year.
+- **Campus face-recognition checkpoint** (BSc thesis): Django + React, deployed at the University of Central Asia.
 
 ## 🧰 Toolbox
 
@@ -58,4 +58,4 @@ rule:         "agents do the typing; I own the design, the tests, the blast radi
   <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,cloudflare,githubactions,linux,bash,elasticsearch,grafana,prometheus,kafka,pytorch&perline=14" alt="Infrastructure and data">
 </p>
 
-<sub>Most of my client work lives in private repos. Happy to walk through any of it.</sub>
+<sub>Most of my client work lives in private repos.</sub>
